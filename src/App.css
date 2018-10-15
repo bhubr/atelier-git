@@ -8,6 +8,9 @@
   height: 90vh;
 }
 
+.App-header {
+  color: white;
+}
 .App-sidebar {
   padding: 20px;
   background: #ddd;
