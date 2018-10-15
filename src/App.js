@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import Banner from './Banner';
+import Sidebar from './Sidebar';
 import './App.css';
-import Banner from './Banner'
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
         <header className="App-header">
           <Banner/>
         </header>
+        <Sidebar />
       </div>
     );
   }

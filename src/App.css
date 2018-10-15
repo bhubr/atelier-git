@@ -8,4 +8,17 @@
   height: 90vh;
 }
 
-
+.App-sidebar {
+  padding: 20px;
+  background: #ddd;
+  margin-top: 20vh;
+  height: 80vh;
+  width: 25%;
+  right: 0;
+  position: fixed;
+  text-align: left;
+}
+.App-sidebar li {
+  list-style-type: none;
+  line-height: 1.5rem;
+}
